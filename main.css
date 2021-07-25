@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+
+.user {
+    /* box-sizing: border-box; */
+    display: block;
+    margin: auto;
+    width: 348px;
+    /* height: 1vh; */
+    
+    padding: 0.4rem;
+    background-color: blueviolet;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    text-align: center;
+    
+}
+.user h1{
+    text-align: center;
+}
+.user h4{
+    text-align: center;
+}
+#Ans {
+    display: block;
+    margin: auto;
+    width: 50px;
+    font-size: x-large;
+    text-decoration: underline;
+    color: rgb(42, 62, 248);
+}
+
+
+.input {
+    height: 10vh;
+    font-size: large;
+}
+
+.buttons {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 348px;
+    padding-top: 10px;
+    padding: 10px;
+    background-color: rgb(30, 210, 186);
+    border-radius: 12px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    font-size: 5ex;
+    border-radius: 28px;
+}
+.ans {
+    padding: 20px;
+}
+
+#answer {
+    font-size: xx-large;
+    padding: 5px;
+    display: block;
+    margin: auto;
+    width: 348px;
+    background-color: rgb(71, 181, 255);
+    border-radius: 12px;
+    
+}
+
+#plus {
+    background-color: rgb(17, 255, 96);
+}
+#mins {
+    background-color: rgb(252, 219, 32);
+}
+#mul {
+    background-color: rgb(17, 255, 223);
+}
+#devide {
+    background-color: rgb(21, 17, 255);
+}
